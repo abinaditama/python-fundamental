@@ -8,7 +8,7 @@ print(f'addition result is {x}')
 print('\n')
 
 # multiply all the items in a list
-print(f'list to be multiplicated {list1}')
+print(f'list to be multiplied {list1}')
 y = 1
 for i in list1:
     y = y*i
