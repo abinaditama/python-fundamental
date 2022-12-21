@@ -47,3 +47,11 @@ for i in list2:
 print(f'string length more than 2 character, first and last char are same {counter}')
 print('\n')
 
+list3 = [(2, 5), (1, 2), (4, 4), (2, 3), (2, 1)]
+for i in range(len(list3)-1):
+    for j in range(i, len(list3)):
+        if list3[i][1] > list3[j][1]:
+            abc = list3[i]
+            list3[i] = list3[j]
+            list3[j] = abc
+print(list3)
