@@ -46,3 +46,4 @@ for i in list2:
             counter +=1
 print(f'string length more than 2 character, first and last char are same {counter}')
 print('\n')
+
