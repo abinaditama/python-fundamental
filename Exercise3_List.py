@@ -47,6 +47,8 @@ for i in list2:
 print(f'string length more than 2 character, first and last char are same {counter}')
 print('\n')
 
+'''get a list, sorted in increasing order by 
+the last element in each tuple from a given list of non-empty tuples'''
 list3 = [(2, 5), (1, 2), (4, 4), (2, 3), (2, 1)]
 for i in range(len(list3)):
     for j in range(i, len(list3)):
@@ -55,3 +57,5 @@ for i in range(len(list3)):
             list3[i] = list3[j]
             list3[j] = abc
             print(list3)
+
+# remove duplicates from a list
