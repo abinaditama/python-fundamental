@@ -20,3 +20,21 @@ def largest(list):
   largest = list2[-1]
   return largest
 print(largest([1,3,6,7,8,9,-11,99]))
+
+def smallest (list):
+  listX = sorted(list)
+  smallest = listX[0]
+  return smallest
+print(smallest([9,7,5,10,-11,-97,-3]))
+
+def flatten (nums):
+  listA = []
+  for i in nums:
+    for y in i:
+      listA.append(y)
+  return print(listA)
+
+flatten([[2,4,3],[1,5,6], [9], [7,9,0]])
+
+
+
