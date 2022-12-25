@@ -41,9 +41,9 @@ list2 = ['abc', 'xyz', 'aba', '1221']
 print(list2)
 counter = 0
 for i in list2:
-    if len(i)>2:
+    if len(i) > 2:
         if i[0] == i[-1]:
-            counter +=1
+            counter += 1
 print(f'string length more than 2 character, first and last char are same {counter}')
 print('\n')
 
